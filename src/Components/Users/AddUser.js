@@ -50,7 +50,7 @@ const AddUser = (props)=>{
 
     return ( 
        <Wrapper>
-    {error && <ErrorModal title = {error.title} msg = {error.message} onConfirm ={errorHandler}/>}
+    {error && <ErrorModal title = {error.title} message = {error.message} onConfirm ={errorHandler}/>}
     
     <Card className ={classes.input}>
         <form onSubmit={addUserHandler}>
